@@ -19,7 +19,7 @@ library("proxy")
 library("MASS")
 library("fields")
 library("matrixStats")
-library("compiler")
+#library("compiler")
 
 args <- commandArgs(TRUE)
 points <- read.table(args[1],sep=";",head=FALSE)
@@ -44,8 +44,8 @@ fitness <- function(centroids)
     #print(distCent + diag(dimen))
     return(1/sum(colMins(z)))
 }
-fitness2 <- cmpfun(fitness)
-
+#fitness2 <- cmpfun(fitness)
+fitness2 <- fitness
 
 min = apply(points, 2,min)
 minv = rep(min,dimen)

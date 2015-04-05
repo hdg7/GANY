@@ -19,7 +19,7 @@
 
 #Ex: sh gen.sh iris.dat 3 50
 
-GENERAL_FOLDER="/home/elluisma/owncloud/CEC2015/code/GANY"
+GENERAL_FOLDER="/home/trabajo/GANY"
 CONVERSORPATH=$GENERAL_FOLDER"/Code/Scripts/gen/matrix.r"	
 GEN=$GENERAL_FOLDER"/Code/Scripts/gen/gen.r"
 

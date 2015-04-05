@@ -17,7 +17,7 @@
 
 #   Example: sh scriptGeneration.sh
 
-GENERAL_FOLDER="/home/elluisma/owncloud/CEC2015/code/GANY"
+GENERAL_FOLDER="/home/trabajo/GANY"
 PATH_MODELOS=$GENERAL_FOLDER"/Code/Scripts" 
 ALGORITHMS=$PATH_MODELOS"/algorithms"
 DATASET="spirals.csv"
